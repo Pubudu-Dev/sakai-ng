@@ -1,0 +1,116 @@
+[
+  {
+    "id": 1,
+    "style": 223,
+    "customer": "Aeiry",
+    "description": "basic yoga pant",
+    "sketch": "assets/images/garment_sketch/sketch1.jpg",
+    "garment_tech_name": "Vihanga",
+    "garment_tech_avatar": "assets/images/employee_avatar/employee_2533.jpg",
+    "stages": [
+      {
+        "stage": "T&A",
+        "proto_date": "2023-07-17T00:00:00.000Z",
+        "fit_date": "2023-08-17T00:00:00.000Z",
+        "size_set_date": "2023-07-14T00:00:00.000Z",
+        "pp_sample_date": "2023-07-15T00:00:00.000Z",
+        "pp_sample_actual_date": "2023-07-17T00:00:00.000Z",
+        "color_sample_date": "2023-07-19T00:00:00.000Z"
+      },
+      {
+        "stage": "1",
+        "proto_date": "2023-06-17T00:00:00.000Z",
+        "fit_date": "2023-07-17T00:00:00.000Z",
+        "size_set_date": "2023-07-14T00:00:00.000Z",
+        "pp_sample_date": "2023-07-18T00:00:00.000Z",
+        "pp_sample_actual_date": "2023-07-17T00:00:00.000Z",
+        "color_sample_date": "2023-07-19T00:00:00.000Z"
+      },
+      {
+        "stage": "2",
+        "proto_date": "2023-07-17T00:00:00.000Z",
+        "fit_date": "2023-08-17T00:00:00.000Z",
+        "size_set_date": "2023-08-14T00:00:00.000Z",
+        "pp_sample_date": "2023-08-15T00:00:00.000Z",
+        "pp_sample_actual_date": "2023-08-17T00:00:00.000Z",
+        "color_sample_date": "2023-08-19T00:00:00.000Z"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "style": 224,
+    "customer": "ABC Clothing",
+    "description": "Denim jeans",
+    "sketch": "assets/images/garment_sketch/sketch2.jpg",
+    "garment_tech_name": "John Smith",
+    "garment_tech_avatar": "assets/images/employee_avatar/employee_1234.jpg",
+    "stages": [
+      {
+        "stage": "T&A",
+        "proto_date": "2023-07-20T00:00:00.000Z",
+        "fit_date": "2023-08-20T00:00:00.000Z",
+        "size_set_date": "2023-07-17T00:00:00.000Z",
+        "pp_sample_date": "2023-07-18T00:00:00.000Z",
+        "pp_sample_actual_date": "2023-07-20T00:00:00.000Z",
+        "color_sample_date": "2023-07-22T00:00:00.000Z"
+      },
+      {
+        "stage": "1",
+        "proto_date": "2023-07-20T00:00:00.000Z",
+        "fit_date": "2023-08-20T00:00:00.000Z",
+        "size_set_date": "2023-07-17T00:00:00.000Z",
+        "pp_sample_date": "2023-07-18T00:00:00.000Z",
+        "pp_sample_actual_date": "2023-07-20T00:00:00.000Z",
+        "color_sample_date": "2023-07-22T00:00:00.000Z"
+      },
+      {
+        "stage": "2",
+        "proto_date": "2023-07-20T00:00:00.000Z",
+        "fit_date": "2023-08-20T00:00:00.000Z",
+        "size_set_date": "2023-07-17T00:00:00.000Z",
+        "pp_sample_date": "2023-07-18T00:00:00.000Z",
+        "pp_sample_actual_date": "2023-07-20T00:00:00.000Z",
+        "color_sample_date": "2023-07-22T00:00:00.000Z"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "style": 225,
+    "customer": "XYZ Fashion",
+    "description": "T-shirt",
+    "sketch": "assets/images/garment_sketch/sketch3.jpg",
+    "garment_tech_name": "Jane Doe",
+    "garment_tech_avatar": "assets/images/employee_avatar/employee_5678.jpg",
+    "stages": [
+      {
+        "stage": "T&A",
+        "proto_date": "2023-07-25T00:00:00.000Z",
+        "fit_date": "2023-08-25T00:00:00.000Z",
+        "size_set_date": "2023-07-22T00:00:00.000Z",
+        "pp_sample_date": "2023-07-23T00:00:00.000Z",
+        "pp_sample_actual_date": "2023-07-25T00:00:00.000Z",
+        "color_sample_date": "2023-07-27T00:00:00.000Z"
+      },
+      {
+        "stage": "1",
+        "proto_date": "2023-07-25T00:00:00.000Z",
+        "fit_date": "2023-08-25T00:00:00.000Z",
+        "size_set_date": "2023-07-22T00:00:00.000Z",
+        "pp_sample_date": "2023-07-23T00:00:00.000Z",
+        "pp_sample_actual_date": "2023-07-25T00:00:00.000Z",
+        "color_sample_date": "2023-07-27T00:00:00.000Z"
+      },
+      {
+        "stage": "2",
+        "proto_date": "2023-07-25T00:00:00.000Z",
+        "fit_date": "2023-08-25T00:00:00.000Z",
+        "size_set_date": "2023-07-22T00:00:00.000Z",
+        "pp_sample_date": "2023-07-23T00:00:00.000Z",
+        "pp_sample_actual_date": "2023-07-25T00:00:00.000Z",
+        "color_sample_date": "2023-07-27T00:00:00.000Z"
+      }
+    ]
+  }
+]
