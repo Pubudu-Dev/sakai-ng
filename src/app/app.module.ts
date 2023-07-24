@@ -14,7 +14,7 @@ import { PhotoService } from './demo/service/photo.service';
 import { TadashboardComponent } from './tadashboard/tadashboard.component';
 import { ToastModule } from 'primeng/toast';
 
-
+ 
 @NgModule({
     declarations: [
         AppComponent, NotfoundComponent
@@ -32,4 +32,6 @@ import { ToastModule } from 'primeng/toast';
     ],
     bootstrap: [AppComponent]
 })
+
+
 export class AppModule { }

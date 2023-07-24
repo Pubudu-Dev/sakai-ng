@@ -1,0 +1,121 @@
+<div class="card">
+    <h5>Add New Style</h5>
+    
+    <div class="grid p-fluid mt-3">
+        
+        <div class="field col-12 md:col-4">
+            <span class="p-float-label p-input-icon-right">
+                
+                <input type="text" id="inputtext" pInputText [(ngModel)]="value1">
+                <label for="inputtext">Style No</label>
+                <i class="pi pi-list "></i>
+            </span>
+        </div>
+        <div class="field col-12 md:col-4">
+            <span class="p-float-label p-input-icon-right">
+                
+                <p-autoComplete inputId="autocomplete" [(ngModel)]="value2" [suggestions]="filteredCountries"
+                (completeMethod)="searchCountry($event)" field="name"></p-autoComplete>
+                <label for="autocomplete">Garment Tech</label>
+                <i class="pi pi-user "></i>
+            </span>
+        </div>
+
+        <div class="field col-12 md:col-4">
+            <span class="p-float-label p-input-icon-right">
+                
+                <p-autoComplete inputId="autocomplete" [(ngModel)]="value2" [suggestions]="filteredCountries"
+                (completeMethod)="searchCountry($event)" field="name"></p-autoComplete>
+                <label for="autocomplete">Customer</label>
+                <i class="pi pi-briefcase "></i>
+            </span>
+        </div>
+        <div class="field col-12 md:col-4">
+            <span class="p-float-label">
+                <textarea inputId="textarea" rows="3" cols="30" [(ngModel)]="value12" pInputTextarea></textarea>
+                <label for="textarea">Description</label>
+            </span>
+        </div>
+        
+<div class="field col-12 md:col-4">
+    <!-- <p-toast></p-toast> -->
+    <span class="label">
+    <p-fileUpload mode="basic" chooseLabel="Choose Sketch" name="demo[]" url="https://www.primefaces.org/cdn/api/upload.php" accept="image/*" (onUpload)="onUpload($event)"></p-fileUpload>
+   
+</span>
+</div>
+        
+        
+    </div>
+
+    <div class="flex justify-content-end flex flex-wrap gap-2">
+        <button pButton pRipple label="Reset" onclick=goto_taform()></button>
+        <button pButton pRipple label="Submit" ></button>       
+    </div>
+</div>
+
+
+<div class="card">
+    <h5>Add New Plan</h5>
+    
+    <div class="grid p-fluid mt-3">
+        <div class="field col-12 md:col-4">
+            <span class="p-float-label">
+                <p-dropdown inputId="dropdown" [autoDisplayFirst]="false" [options]="cities" [(ngModel)]="value10" optionLabel="name"></p-dropdown>
+                <label for="dropdown">Stage</label>
+            </span>
+        </div>
+        <div class="field col-12 md:col-4">
+            <span class="p-float-label">
+                <p-calendar inputId="calendar" [(ngModel)]="value5"></p-calendar>
+                <label for="calendar">Proto Date</label>
+            </span>
+        </div>
+        <div class="field col-12 md:col-4">
+            <span class="p-float-label">
+                <p-calendar inputId="calendar" [(ngModel)]="value6"></p-calendar>
+                <label for="calendar">Fit Date</label>
+            </span>
+        </div>
+
+        <div class="field col-12 md:col-4">
+            <span class="p-float-label">
+                <p-calendar inputId="calendar" [(ngModel)]="value7"></p-calendar>
+                <label for="calendar">Size Set Date</label>
+            </span>
+        </div>
+        
+
+        
+        <div class="field col-12 md:col-4">
+            <span class="p-float-label">
+                <p-calendar inputId="calendar" [(ngModel)]="value8"></p-calendar>
+                <label for="calendar">PP planned Date</label>
+            </span>
+        </div>
+        
+
+        <div class="field col-12 md:col-4">
+            <span class="p-float-label">
+                <p-calendar inputId="calendar" [(ngModel)]="value9"></p-calendar>
+                <label for="calendar">PP actual date</label>
+            </span>
+        </div>
+        
+
+        <div class="field col-12 md:col-4">
+            <span class="p-float-label">
+                <p-calendar inputId="calendar" [(ngModel)]="value10"></p-calendar>
+                <label for="calendar">Color Sample Date</label>
+            </span>
+        </div>
+        
+
+        
+    </div>
+
+    <div class="flex justify-content-end flex flex-wrap gap-2">
+        <button pButton pRipple label="Reset" onclick=goto_taform()></button>
+        <button pButton pRipple label="Submit" ></button>       
+    </div>
+</div>

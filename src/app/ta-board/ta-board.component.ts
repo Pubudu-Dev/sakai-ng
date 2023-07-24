@@ -1,3 +1,4 @@
+import { Router } from '@angular/router';
 import { Component, ElementRef, OnInit, ViewChild } from '@angular/core';
 import { Product } from '../demo/api/product';
 import { ProductService } from '../demo/service/product.service';
@@ -39,7 +40,7 @@ export class TaBoardComponent implements OnInit{
 
 
 
-constructor(private productService:ProductService,private tandAService:TaserviceService){
+constructor(private productService:ProductService,private tandAService:TaserviceService,private router:Router){
     
 }
   ngOnInit(): void {
@@ -62,5 +63,9 @@ constructor(private productService:ProductService,private tandAService:Taservice
 clear(table: Table) {
     table.clear();
     this.filter.nativeElement.value = '';
+}
+
+goto_taform(){
+  this.router.navigate(['/taform']);
 }
 }
