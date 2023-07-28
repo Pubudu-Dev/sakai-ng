@@ -1,0 +1,51 @@
+[
+    {
+        "id": 2533,
+        "name": "Pubudu",
+        "email": "pubuduE@bondville.lk",
+        "job_role": "Management-Trainee",
+        "department": "Coporate",
+        "position":"Executive",
+        "profile_image": "https://mdbootstrap.com/img/new/avatars/8.jpg",
+        "DOB": "1996-07-19T00:00:00.000Z"
+    },
+    {
+        "id": 25289,
+        "name": "Chanaka",
+        "email": "Chanaka@bondville.lk",
+        "job_role": "Garment Tech",
+        "department": "PDC",
+        "position":"Executive",
+        "profile_image": "https://mdbootstrap.com/img/new/avatars/6.jpg",
+        "DOB": "1996-07-19T00:00:00.000Z"
+    },
+    {
+        "id": 2533,
+        "name": "Samantha",
+        "email": "samantha@bondville.lk",
+        "job_role": "Planner",
+        "department": "Planning",
+        "position":"Executive",
+        "profile_image": "https://mdbootstrap.com/img/new/avatars/5.jpg",
+        "DOB": "1996-07-19T00:00:00.000Z"
+    },
+    {
+        "id": 2533,
+        "name": "nishantha",
+        "email": "nishantha@bondville.lk",
+        "job_role": "Manager",
+        "position":"Executive",
+        "profile_image": "https://mdbootstrap.com/img/new/avatars/7.jpg",
+        "DOB": "1996-07-19T00:00:00.000Z"
+    },
+    {
+        "id": 2453,
+        "name": "nimal",
+        "email": "nimal@bondville.lk",
+        "job_role": "Manager",
+        "department": "Production",
+        "position":"Executive",
+        "profile_image": "https://mdbootstrap.com/img/new/avatars/7.jpg",
+        "DOB": "1996-07-19T00:00:00.000Z"
+    }
+]
