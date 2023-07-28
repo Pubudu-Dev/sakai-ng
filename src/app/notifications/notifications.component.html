@@ -1,1 +1,81 @@
-<p>notifications works!</p>
+
+
+   
+    <div class="card">
+<div class="flex">
+           
+    <div class="flex-1 h-100rem ">
+        <p class="text-center surface-border border-bottom-1">Tobe Done</p>
+        <ul class="list-none flex flex-column gap-2 p-0 m-0">
+   
+            <li class=""*ngFor="let notification of tobedone" class="flex flex-row p-2 border-round shadow-1" pDraggable (onDragStart)="dragStart(notification)" (onDragEnd)="dragEnd()" >
+                
+                <div class="flex gap-6" >                <!-- {{notification.text}}            
+             
+                 
+                        
+                    
+                    
+                    <p-tag class="align-self-end"icon="pi pi-user" value="Primary" ></p-tag> -->
+
+
+                    <div class="flex-1 flex align-items-center justify-content-center flex ">{{notification.text}}</div>
+                   
+                    <div class="flex-none flex align-items-center justify-content-center  ">   <p-tag class="align-self-end"icon="pi pi-user" value="Primary" ></p-tag></div>
+                </div>
+                    
+                    
+               
+            </li>
+        </ul>
+    </div>
+
+    
+    
+    <p-divider layout="vertical"></p-divider>
+
+
+    <div class="flex-1 h-100rem " pDroppable (onDrop)="dropped_inprogress()" >
+        <p class="text-center surface-border border-bottom-1" >In Progress</p>
+        <ul class="list-none flex flex-column gap-2 p-0 m-0" >
+   
+            <li class=""*ngFor="let notification of inprogress" class="flex flex-row p-2 border-round shadow-1" pDraggable (onDragStart)="dragStart(notification)" (onDragEnd)="dragEnd()" >
+                
+                <div class="flex gap-6">                <!-- {{notification.text}}            
+             
+                 
+                        
+                    
+                    
+                    <p-tag class="align-self-end"icon="pi pi-user" value="Primary" ></p-tag> -->
+
+
+                    <div class="flex-1 flex align-items-center justify-content-center flex ">{{notification.text}}</div>
+                   
+                    <div class="flex-none flex align-items-center justify-content-center  ">   <p-tag class="align-self-end"icon="pi pi-user" value="Primary" ></p-tag></div>
+                </div>
+                    
+                    
+               
+            </li>
+        </ul>
+    </div>
+
+        
+    <p-divider layout="vertical"></p-divider>
+    <div class="flex-1 h-100rem " pDroppable (onDrop)="dropped_done()">
+        <p class="text-center surface-border border-bottom-1">Done</p>
+        <ul class="list-none flex flex-column gap-2 p-0 m-0" *ngIf="done" >
+            <li *ngFor="let notification of done" class="p-2 border-round shadow-1 bg-green-300">
+                {{notification.text}}
+                
+            </li>
+        </ul>
+    </div>
+           
+
+</div>
+</div>
+
+
+

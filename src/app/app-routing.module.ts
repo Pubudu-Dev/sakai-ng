@@ -15,6 +15,7 @@ import { AppLayoutComponent } from "./layout/app.layout.component";
                     { path: 'prodplan', loadChildren: () => import('./prodplan/prodplan.module').then(m => m.ProdplanModule) },                   
                     { path: 'taform', loadChildren: () => import('./newta/newta.module').then(m => m.NewtaModule) },
                     { path: 'employees', loadChildren: () => import('./employees/employees.module').then(m => m.EmployeesModule) },
+                    { path: 'notifications', loadChildren: () => import('./notifications/notifications.module').then(m => m.NotificationsModule) },
                     { path: 'uikit', loadChildren: () => import('./demo/components/uikit/uikit.module').then(m => m.UIkitModule) },
                     { path: 'utilities', loadChildren: () => import('./demo/components/utilities/utilities.module').then(m => m.UtilitiesModule) },
                     { path: 'documentation', loadChildren: () => import('./demo/components/documentation/documentation.module').then(m => m.DocumentationModule) },
